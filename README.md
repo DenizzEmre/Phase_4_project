@@ -1,7 +1,7 @@
 # Phase_4_project
 NLP Model For Sentiment Analysis
 
-![image info](CloudWord.png)
+![image info](WordCloud.png)
 
 
 Table of Contents
