@@ -25,10 +25,8 @@ Our data was unbalanced with 7% negative, 58% positive and 35% who had no emotio
 ![image info](images/model_performance.png)
 
 
-## NLP Recommendations (Maybe Make this a conclusion in a paragraph setting?)
-* Applying unicode.normalize helps address texts that couldn't be converted with the encoding used when loading data
-* Results were better with TF-IDF across all models
-* Embedding techniques such as LatentDirichletAllocation helps create a balanced result across all classes but more data or deploying a deep learning model would be needed
+## NLP Recommendations 
+ In conclusion, to optimize text processing and enhance model performance, it is pivotal to utilize unicode. normalize for rectifying encoding mismatches during data loading. Moreover, across various models tested, TF-IDF consistently outperformed other vectorization techniques. While embedding methods like Latent Dirichlet Allocation demonstrated promise in balancing outcomes across classes, to truly harness its potential and achieve optimal results, there is a pressing need to either augment the dataset or consider transitioning to a deep learning framework.
 
 ## Limitations
 * Tweets are often accompanied with emojis, capital letters to represent certain enotion as well as punctuations such as exclimation mark, our cleaning process removes those and certain sentioment could be lost.
