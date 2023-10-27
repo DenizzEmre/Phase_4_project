@@ -22,6 +22,10 @@ South by Southwest (SXSW) is a multi-conference event of interactive media, musi
 
 # Dataset Description
 Number of Instances: 9,093
+Data for apple products represented 5517
+Data for Google products represented 2764
+Data with no google or apple mention represented 784 
+We used encoding 'unicode_escape' to encode the text data, and added another layer of encoding and decoding in our cleaning as there were still texts not translating to something we could read. We removed hashtags, URL and other expressions that were not letters using regex, we lowercase everything to reduce repeating words and lettimized using noun, verb, adjective and adverb. This gave use texts to work with and upon further analysis we decided to keep words that had more than 2 words as we noticed repeating aa, ab, rt and more abbreviations that we couldn’t generate real meaning for. We also grouped mentioned products as either apple or google removing tweets with no product mentioned. We noticed bigrams and ungrams were key in our analysis, as trigrams didn’t have that much difference from bigrams in meaning and distribution.
 
 
 Link to the Data's source
