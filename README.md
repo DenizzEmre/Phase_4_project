@@ -25,20 +25,19 @@ Our data was unbalanced with 7% negative, 58% positive and 35% who had no emotio
 ![image info](model_performance.png)
 
 
-## NLP Recommendations 
+## NLP Recommendations (Maybe Make this a conclusion in a paragraph setting?)
 * Applying unicode.normalize helps address texts that couldn't be converted with the encoding used when loading data
 * Results were better with TF-IDF across all models
 * Embedding techniques such as LatentDirichletAllocation helps create a balanced result across all classes but more data or deploying a deep learning model would be needed
-
-## Next Steps
-* Collect more data
-* Deploy deep learning algorithms
 
 ## Limitations
 * Tweets are often accompanied with emojis, capital letters to represent certain enotion as well as punctuations such as exclimation mark, our cleaning process removes those and certain sentioment could be lost.
 * Our data as mentioned above was severly imbalanced leading to less predictive power of negative emotion instances.
 
-  
+## Next Steps
+* Collect more data
+* Deploy deep learning algorithms
+ 
 ### Notebooks
 * [Notebooks](notebooks) 
 
