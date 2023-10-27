@@ -18,6 +18,7 @@ We used encoding 'unicode_escape' to encode the text data, and added another lay
 
 * One main problem we had even after encoding and using regex and .re to clean text was certain 
 expressions where not encoded right. Here is what we used along removing hashtags and regex expression that weren't words.
+Maybe not the best tweet to encode but hey the method works :)
 ![image info](CleaningData.png)
 Link to the Data's source
 * [dataset](https://data.world/crowdflower/brands-and-product-emotions) 
