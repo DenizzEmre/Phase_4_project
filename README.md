@@ -4,23 +4,12 @@ NLP Model For Sentiment Analysis
 ![image info](images/WordCloud.png)
 
 
-Table of Contents
-
-* [***Project Overview:***](#project-overview)
-
-* [***Visualisations using Stills:***](#visualisations-using-stills) 
-
-* [***Conclusion:***](#conclusion)
-
-* [***Notebooks:***](#notebooks)
-
-
 ## Project Overview
 The subject of our Twitter/ X data centers at the 2013 SXSW conference here
 South by Southwest (SXSW) is a multi-conference event of interactive media, music, and film that occurs in Austin, Texas each year in March. Each tweet in our data mentions either Apple products, Google products, or both as well as specific products under those brands.
 
 
-# Dataset Description
+# Data Understanding
 Number of Instances: 9,093
 Data for apple products represented 5517
 Data for Google products represented 2764
