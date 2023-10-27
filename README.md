@@ -20,20 +20,8 @@ We used encoding 'unicode_escape' to encode the text data, and added another lay
 expressions where not encoded right. Here is what we used along removing hashtags and regex expression that weren't words.
 Maybe not the best tweet to encode but hey the method works :)
 ![image info](CleaningData.png)
-Link to the Data's source
-* [dataset](https://data.world/crowdflower/brands-and-product-emotions) 
 
-
-
-![image info](Images)
-
-
-
-![image info](Images/.png)
-
-
-
-![image info](Images/.png)
+## Modeling Process
 
 
 
