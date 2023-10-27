@@ -1,7 +1,7 @@
 # Phase_4_project
 NLP Model For Sentiment Analysis
 
-![image info](images/TwitterLogo.jpg)
+![image info](images/WordCloud.png)
 
 
 Table of Contents
@@ -26,11 +26,6 @@ Number of Instances: 9,093
 
 Link to the Data's source
 * [dataset](https://data.world/crowdflower/brands-and-product-emotions) 
-
-
-## Visualisations Using stills
-
-![image info](images/WordCloud.png)
 
 
 
