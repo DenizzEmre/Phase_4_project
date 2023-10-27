@@ -49,9 +49,14 @@ Our model was unbalanced with 7% negative, 58% positive and 35% who had no emoti
 ## Next Steps
 * Collect more data
 * Deploy deep learning algorithms
+
+## Limitations
+* Tweets are often accompanied with emojis, capital letters to represent certain enotion as well as punctuations such as exclimation mark, our cleaning process removes those and certain sentioment could be lost.
+* Our data as mentioned above was severly imbalanced leading to less predictive power of negative emotion instances.
+
   
 ### Notebooks
-* [Notebooks]([]()) 
+* [Notebooks](notebooks) 
 
 * [FinalNotebook](https://github.com/Danayt09/Phase_4_project/blob/main/Modeling_ver03.ipynb)
 
