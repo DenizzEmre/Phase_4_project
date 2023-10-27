@@ -1,7 +1,7 @@
 # Phase_4_project
 NLP Model For Sentiment Analysis
 
-![image info](TwitterLogo.jpg)
+![image info](images/TwitterLogo.jpg)
 
 
 Table of Contents
@@ -30,7 +30,7 @@ Link to the Data's source
 
 ## Visualisations Using stills
 
-![image info](WordCloud.png/)
+![image info](images/WordCloud.png)
 
 
 
