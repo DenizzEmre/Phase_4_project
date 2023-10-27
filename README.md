@@ -53,7 +53,7 @@ Our model was unbalanced with 7% negative, 58% positive and 35% who had no emoti
 
 ## Next Steps
 * Collect more data
-* Deply deep learning algorithms
+* Deploy deep learning algorithms
   
 ### Notebooks
 * [Notebooks]([]()) 
