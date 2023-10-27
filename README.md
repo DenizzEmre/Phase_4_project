@@ -6,7 +6,7 @@ NLP Model For Sentiment Analysis
 
 ## Project Overview
 The subject of our Twitter/ X data centers at the 2013 SXSW conference here
-South by Southwest (SXSW) is a multi-conference event of interactive media, music, and film that occurs in Austin, Texas each year in March. Each tweet in our data mentions either Apple products, Google products, or both as well as specific products under those brands. We dropped instances were no apple or google product was mentioned. Our goal is to analyze sentiment from tech conference and predict future growth based on sentiment that can be traslated to purchase as a step in developing a model for consulting the average retail investor
+South by Southwest (SXSW) is a multi-conference event of interactive media, music, and film that occurs in Austin, Texas each year in March. Each tweet in our data mentions either Apple products, Google products, or both as well as specific products under those brands. We dropped instances were no apple or google product was mentioned. Our goal is to analyze sentiment from tech conference and predict future growth based on sentiment that can be traslated to purchase as a step in developing a model for consulting the average retail investor.
 
 
 # Data Understanding
