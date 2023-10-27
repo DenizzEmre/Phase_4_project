@@ -18,11 +18,11 @@ We used encoding 'unicode_escape' to encode the text data, and added another lay
 * One main problem we had even after encoding and using regex and .re to clean text was certain 
 expressions where not encoded right. Here is what we used along removing hashtags and regex expression that weren't words.
 Maybe not the best tweet to encode but hey the method works :)
-![image info](CleaningData.png)
+![image info](images/CleaningData.png)
 
 ## Modeling Process
 Our data was unbalanced with 7% negative, 58% positive and 35% who had no emotion or couldn’t tell their feelings from the tweet. We tried modeling with Countvector and TF-IDF, we tried to balance our data with smote and embedding techniques to reduce dimension, such as negative matrix factorization, Turnicated SVD and LatentDirichletAllocation embedding techniques unfortunately our data was not enough and dimension reduction couldn’t help our models performance. Although we did get pretty balanced across all metrics with logistic regression and LatentDirichletAllocation, the best performer given the amount of data was Logistic regression with TF-IDF. Model performance across all models had a weakness of predicting negative emotion with certain data splits having no instance of tweet corpus with negative emotion. 
-![image info](model_performance.png)
+![image info](images/model_performance.png)
 
 
 ## NLP Recommendations (Maybe Make this a conclusion in a paragraph setting?)
@@ -41,7 +41,7 @@ Our data was unbalanced with 7% negative, 58% positive and 35% who had no emotio
 ### Notebooks
 * [Notebooks](notebooks) 
 
-* [FinalNotebook](https://github.com/Danayt09/Phase_4_project/blob/main/Modeling_ver03.ipynb)
+* [FinalNotebook](final_notebook.ipynb)
 
   
 
@@ -51,6 +51,3 @@ Gavin Martin <a href = "https://github.com/GitHbGav"><img src='https://cdn.pixab
 Claire Sarraillé <a href = "https://github.com/clairesarraille"><img src='https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png' width = '25' height='25'></a><a href="https://www.linkedin.com/in/claire-sarraille/"><img src='https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg' width = '25' height='25'></a>  
 Deniz Emre <a href = "https://github.com/DenizzEmre"><img src='https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png' width = '25' height='25'></a><a href="https://www.linkedin.com/in/demre/"><img src='https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg' width = '25' height='25'></a>  
 Danayt Aman <a href = "https://github.com/Danayt09"><img src='https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png' width = '25' height='25'></a><a href="https://www.linkedin.com/in/danayt-aman/"><img src='https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg' width = '25' height='25'></a>  
-
-## References
-[twitterImage](https://unsplash.com/photos/blue-and-white-heart-illustration-k1xf2D7jWUs)
