@@ -41,7 +41,7 @@ Our model was unbalanced with 7% negative, 58% positive and 35% who had no emoti
 ![image info](model_performance.png)
 
 
-## Recommendations 
+## NLP Recommendations 
 * Applying unicode.normalize helps address texts that couldn't be converted with the encoding used when loading data
 * Results were better with TF-IDF across all models
 * Embedding techniques such as LatentDirichletAllocation helps create a balanced result across all classes but more data or deploying a deep learning model would be needed
